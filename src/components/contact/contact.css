@@ -64,18 +64,24 @@ input, textarea {
     color: var(--color-white);
 }
 
+.contact_container{
+    position: relative;
+}
  div .scroll__up{
     position: absolute;
-    top: 325rem;
-    right: 10rem;
+    top: 50%;
+    right: 9.5rem;
     font-weight: 300;
     font-size: 0.9rem;
+    transform: rotate(90deg);
+}
+
+.contact__option-icon-arrow{
+    transform: rotate(270deg);   
+    display: inline;
 }
 
 .contact__option-icon-arrow {
-    position: absolute;
-    top: 327rem;
-    right: 11rem;
     font-size: 1.5rem;
 }
 

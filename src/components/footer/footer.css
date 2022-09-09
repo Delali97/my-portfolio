@@ -1,6 +1,6 @@
 footer {
     background: var(--color-primary);
-    padding: 3rem 0;
+    padding: 1rem 0;
     text-align: center;
     font-size: 0.9rem;
     margin-top: 3rem; 
@@ -16,7 +16,7 @@ footer a {
 .footer__logo {
     font-size: 2rem;
     font-weight: 500;
-    margin-bottom: 2rem;
+    margin-bottom: 1.5rem;
     display: inline-block;
   }
 
@@ -25,14 +25,14 @@ footer a {
     flex-wrap: wrap;
     justify-content: center;
     gap: 2rem;
-    margin: 0 auto 3rem;
+    margin: 0 auto 1.5rem;
 }
 
 .footer__socials {
     display: flex;
     justify-content: center;
     gap: 1rem;
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
 }
 
 .footer__socials a {
@@ -51,7 +51,7 @@ footer a {
 }
 
 .footer__copyright {
-    margin-bottom: 4rem;
+    margin-bottom: 1.5rem;
     color: var(--color-bg);
 }
 
@@ -63,6 +63,6 @@ footer a {
        }
     
     .footer__socials {
-        margin-bottom: 2.6rem;
+        margin-bottom: 1.5rem;
     }
   }

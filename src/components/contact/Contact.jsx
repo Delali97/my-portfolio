@@ -18,13 +18,12 @@ const contact = () => {
 }
 
   return (
-    <section id='contact'>
+    <section id='contact' className='contact_container'>
       <h5>Get In Touch</h5>
       <h2>Contact Me</h2>
-      <div> 
-          <a href="#top" className='scroll__up'>Scroll Up <p></p>
+      <div className='scroll__up'> 
+          <a href="#top" className='p'>Scroll Up
           </a>
-          <IoIosArrowUp className='contact__option-icon-arrow' />
         </div>
       <div className="container contact__container">
         <div className="contact__options">
